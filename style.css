@@ -1,37 +1,66 @@
-body {
+html, body {
     background-color: white;
     margin: 0;
     font-family: sans-serif;
+    height: 100vh;
 }
 
 /* Sección superior */
-.top {
+header {
     background-color: rgb(255,214,128);
-    padding: 40px;
     display: flex;
     align-items: flex-start;
-    gap: 40px;
+    width: 100%;
+    height: 30%;
     
 }
-.cuadradoizquierda
+
+#middle
 {
-    background-color: rgb(255,181,76);
-    width: 300;
-    height: 300;
-};
-
-.logo {
-    width: 100px;
-    height: 100px;
-    background-color: #fbb040;
-}
-
-.middle
-{
-
+    position: relative;
+    width: 100%;
+    height: 55%;
 }
  
-.bottom
+.square-row
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    width: 80%;
+    height: 30%;
+    left: 10%;
+    top: 15%;
+}
+
+#row2
+{
+    top: 55%;
+}
+
+.square
+{
+    height: 100%;
+    aspect-ratio: 1;
+}
+
+.bluesquare
+{
+    background-color: blue;
+}
+
+.redsquare
+{
+    background-color: red;
+}
+
+.yellowsquare
+{
+    background-color: yellow;
+}
+
+footer
 {
     background-color: #ffc964; 
 }
