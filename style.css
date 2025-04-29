@@ -47,17 +47,17 @@ header {
 
 .bluesquare
 {
-    background-color: blue;
+    background-color: #c4edf1;
 }
 
 .redsquare
 {
-    background-color: red;
+    background-color: #ff9978;
 }
 
 .yellowsquare
 {
-    background-color: yellow;
+    background-color: #ffd680;
 }
 
 footer
