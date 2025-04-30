@@ -9,10 +9,31 @@ html, body {
 header {
     background-color: rgb(255,214,128);
     display: flex;
-    align-items: flex-start;
     width: 100%;
     height: 30%;
     
+}
+
+#headerizquierdo
+{
+    width: 45%;
+    height: 100%;
+}
+
+#headerderecho
+{
+    position: relative;
+    width: 55%;
+    height: 100%;
+}
+
+#lineablanca1
+{
+    position: absolute;
+    background-color: white;
+    width: 80%;
+    height: 5%;
+    top: 25%;
 }
 
 #middle
